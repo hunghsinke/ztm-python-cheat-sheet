@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T04:13:08.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="-CZCF91ql6R-Hgwiwg5B" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-09T04:20:41.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="3AmtrUmcQ8u4LfGPOPxb" version="14.8.5" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2333" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -280,7 +280,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cq_CnLo5RkydcgQoa1vz" name="Page-2">
-    <mxGraphModel dx="2071" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="zLOH6CxyHAnhDM8X-pvC-0" />
         <mxCell id="zLOH6CxyHAnhDM8X-pvC-1" parent="zLOH6CxyHAnhDM8X-pvC-0" />
@@ -692,7 +692,7 @@
           <mxGeometry x="245" y="740" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zLOH6CxyHAnhDM8X-pvC-138" value="1..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="zLOH6CxyHAnhDM8X-pvC-1">
-          <mxGeometry x="80" y="530" width="40" height="20" as="geometry" />
+          <mxGeometry x="100" y="540" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zLOH6CxyHAnhDM8X-pvC-151" value="Terms and condition" style="shape=table;startSize=20;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="zLOH6CxyHAnhDM8X-pvC-1">
           <mxGeometry x="-90" y="1240" width="180" height="160" as="geometry" />
@@ -740,7 +740,7 @@
           <mxGeometry y="1210" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zLOH6CxyHAnhDM8X-pvC-170" value="Checks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="zLOH6CxyHAnhDM8X-pvC-1">
-          <mxGeometry x="-70" y="1170" width="60" height="20" as="geometry" />
+          <mxGeometry x="-45" y="1190" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zLOH6CxyHAnhDM8X-pvC-171" value="Reminder" style="shape=table;startSize=20;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="zLOH6CxyHAnhDM8X-pvC-1">
           <mxGeometry x="280" y="1240" width="180" height="160" as="geometry" />
@@ -792,6 +792,24 @@
         </mxCell>
         <mxCell id="zLOH6CxyHAnhDM8X-pvC-189" value="Has" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="zLOH6CxyHAnhDM8X-pvC-1">
           <mxGeometry x="620" y="500" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zLOH6CxyHAnhDM8X-pvC-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="zLOH6CxyHAnhDM8X-pvC-1" source="zLOH6CxyHAnhDM8X-pvC-82" target="zLOH6CxyHAnhDM8X-pvC-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-200" y="525" />
+              <mxPoint x="-200" y="1170" />
+              <mxPoint x="325" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zLOH6CxyHAnhDM8X-pvC-191" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="zLOH6CxyHAnhDM8X-pvC-1">
+          <mxGeometry x="285" y="1110" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zLOH6CxyHAnhDM8X-pvC-192" value="Signs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="zLOH6CxyHAnhDM8X-pvC-1">
+          <mxGeometry x="105" y="1170" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zLOH6CxyHAnhDM8X-pvC-193" value="1..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="zLOH6CxyHAnhDM8X-pvC-1">
+          <mxGeometry x="-130" y="530" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
